@@ -2830,6 +2830,11 @@ li {
 
 @media (max-width: 360px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .header {
         height: 76px;
         padding: 20px 32px;
