@@ -2852,6 +2852,12 @@ li {
         width: 15rem; /* 240px */
         height: 20rem; /* 320px */
     }
+
+    .second-content-second-part-body-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
     #second-content-second-part-body-group-first-paragraph,
     #second-content-second-part-body-group-second-paragraph,
