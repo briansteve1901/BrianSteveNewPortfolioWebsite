@@ -19,6 +19,10 @@
     font-style: normal;
 }
 
+html, body {
+    overflow-x: auto;
+}
+
 a {
     text-decoration: none;
 }
