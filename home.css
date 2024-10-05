@@ -2689,7 +2689,7 @@ li {
     }
     
     #left-header-logo {
-        font-size: 1.3125rem; /* 21px */
+        font-size: 1.25rem; /* 20px */
     }
     
     .right-header {
@@ -2762,7 +2762,7 @@ li {
     
     #first-content-first-part-first-body {
         margin-bottom: 1rem; /* 16px */
-        font-size: 0.8125rem; /* 13px */
+        font-size: 0.75rem; /* 12px */
         font-weight: medium;
         color: #007CFF;
     }
@@ -2793,7 +2793,7 @@ li {
     .first-content-second-part-contact-me-button {
         display: flex;
         align-items: center;
-        padding: 1.1875rem 1.5rem; /* 19px 24px */
+        padding: 1rem 1.25rem; /* 16px 20px */
         border: 1px solid #007CFF;
         background-color: white;
         color: #007CFF;
@@ -2806,7 +2806,7 @@ li {
     .first-content-second-part-download-cv-button {
         display: flex;
         align-items: center;
-        padding: 1.1875rem 1.5rem; /* 19px 24px */
+        padding: 1rem 1.25rem; /* 16px 20px */
         border: none;
         background-color: #007CFF;
         cursor: pointer;
@@ -2856,7 +2856,7 @@ li {
     .second-content-second-part-body-group {
         margin-top: 2rem; /* 32px */
         text-align: justify;
-        font-size: 0.875rem; /* 14px */
+        font-size: 0.813rem; /* 13px */
         width: 15rem; /* 240px */
     }
     
