@@ -14,24 +14,31 @@
 <body>
     <div class="header">
         <div class="left-header">
-            <a href="home.html" target="_blank">
+            <a href="home.html">
                 <h1 class="inter-bold" id="left-header-logo">Brian</h1>
             </a>
         </div>
         <div class="right-header">
             <ul class="inner-right-header">
-                <a href="home.html" target="_blank">
-                    <li class="inter-bold" id="inner-right-header-home">Home</li>
+                <a style="display: flex; flex-direction: row; align-items: center;" href="home.html">
+                    <img style="margin-right: 6px;" width="20px" height="20px" src="home_images/home_icon.webp" alt="Image Not Loaded">
+                    <li style="display: inline;" class="inter-bold" id="inner-right-header-home">Home</li>
                 </a>
-                <a href="projects.html" target="_blank">
-                    <li class="inter-bold" id="inner-right-header-my-projects">My Projects</li>
+                <a style="display: flex; flex-direction: row; align-items: center;" href="projects.html">
+                    <img style="margin-right: 6px;" width="20px" height="20px" src="home_images/projects_icon.webp" alt="Image Not Loaded">
+                    <li style="display: inline;" class="inter-bold" id="inner-right-header-my-projects">My Projects</li>
                 </a>
-                <!-- <li id="inner-right-header-toggle-button">
-                    <img id="inner-right-header-toggle-button-image" src="home_images/light_mode_toggle_button.jpg" alt="Image Not Loaded">
-                </li> -->
             </ul>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="close-menu" id="close-menu">
+                <img src="home_images/close_icon.webp" alt="Close Menu">
+            </div>
         </div>
-    </div>
+    </div> 
     <div class="main">
         <div class="main-first-part">
             <p data-aos="fade-right" data-aos-duration="3000" class="inter-semibold" id="main-first-part-body">MY PROJECTS</p>
@@ -41,7 +48,7 @@
             <div class="main-second-part-first-row">
                 <div data-aos="fade-up-left" data-aos-duration="3000" class="main-second-part-first-row-first-project">
                     <div class="main-second-part-first-row-first-project-first-part">
-                        <img id="main-second-part-first-row-first-project-first-part-image" src="projects(second)_images/custom_catering_order_application_cateringin_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-first-row-first-project-first-part-image" src="projects(second)_images/custom_catering_order_application_cateringin_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-first-row-first-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-first-row-first-project-second-part-title">Custom Catering Order Application - CATERINGIN Design</h1>
@@ -55,7 +62,7 @@
                 </div>
                 <div data-aos="fade-down-right" data-aos-duration="3000" class="main-second-part-first-row-second-project">
                     <div class="main-second-part-first-row-second-project-first-part">
-                        <img id="main-second-part-first-row-second-project-first-part-image" src="projects(second)_images/buy_clothes_app_fashion_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-first-row-second-project-first-part-image" src="projects(second)_images/buy_clothes_app_fashion_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-first-row-second-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-first-row-second-project-second-part-title">Buy Clothes App - Fashion Design</h1>
@@ -69,7 +76,7 @@
                 </div>
                 <div data-aos="flip-right" data-aos-duration="3000" class="main-second-part-first-row-third-project">
                     <div class="main-second-part-first-row-third-project-first-part">
-                        <img id="main-second-part-first-row-third-project-first-part-image" src="projects(second)_images/bus_ticket_booking_application_bustic_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-first-row-third-project-first-part-image" src="projects(second)_images/bus_ticket_booking_application_bustic_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-first-row-third-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-first-row-third-project-second-part-title">Bus Ticket Booking Application - BusTic Design</h1>
@@ -85,7 +92,7 @@
             <div class="main-second-part-second-row">
                 <div data-aos="flip-left" data-aos-duration="3000" class="main-second-part-second-row-first-project">
                     <div class="main-second-part-second-row-first-project-first-part">
-                        <img id="main-second-part-second-row-first-project-first-part-image" src="projects(second)_images/japan_attraction_places_tour_booking_application_explore_japan_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-second-row-first-project-first-part-image" src="projects(second)_images/japan_attraction_places_tour_booking_application_explore_japan_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-second-row-first-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-second-row-first-project-second-part-title">Japan Attraction Places Tour Booking Application - Explore Japan Design</h1>
@@ -99,7 +106,7 @@
                 </div>
                 <div data-aos="flip-right" data-aos-duration="3000" class="main-second-part-second-row-second-project">
                     <div class="main-second-part-second-row-second-project-first-part">
-                        <img id="main-second-part-second-row-second-project-first-part-image" src="projects_images/ideabox_platform_ux_research_case_study.png" alt="Image Not Loaded">
+                        <img id="main-second-part-second-row-second-project-first-part-image" src="projects(second)_images/login_and_account_registration_screens.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-second-row-second-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-second-row-second-project-second-part-title">Login and Account Registration Screens Design</h1>
@@ -113,7 +120,7 @@
                 </div>
                 <div data-aos="fade-left" data-aos-duration="3000" class="main-second-part-second-row-third-project">
                     <div class="main-second-part-second-row-third-project-first-part">
-                        <img id="main-second-part-second-row-third-project-first-part-image" src="projects(second)_images/reset_password_screens_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-second-row-third-project-first-part-image" src="projects(second)_images/reset_password_screens_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-second-row-third-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-second-row-third-project-second-part-title">Reset Password Screens Design</h1>
@@ -129,7 +136,7 @@
             <div class="main-second-part-third-row">
                 <div data-aos="fade-up-right" data-aos-duration="3000" class="main-second-part-third-row-first-project">
                     <div class="main-second-part-third-row-first-project-first-part">
-                        <img id="main-second-part-third-row-first-project-first-part-image" src="projects(second)_images/book_day_and_date_history_filter_pop_up_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-third-row-first-project-first-part-image" src="projects(second)_images/book_day_and_date_history_filter_pop_up_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-third-row-first-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-third-row-first-project-second-part-title">Book Day and Date History Filter Pop Up Design</h1>
@@ -143,7 +150,7 @@
                 </div>
                 <div data-aos="fade-up-left" data-aos-duration="3000" class="main-second-part-third-row-second-project">
                     <div class="main-second-part-third-row-second-project-first-part">
-                        <img id="main-second-part-third-row-second-project-first-part-image" src="projects(second)_images/journey_data_sort_pop_up_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-third-row-second-project-first-part-image" src="projects(second)_images/journey_data_sort_pop_up_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-third-row-second-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-third-row-second-project-second-part-title">Journey Data Sort Pop Up Design</h1>
@@ -157,7 +164,7 @@
                 </div>
                 <div data-aos="fade-down-right" data-aos-duration="3000" class="main-second-part-third-row-third-project">
                     <div class="main-second-part-third-row-third-project-first-part">
-                        <img id="main-second-part-third-row-third-project-first-part-image" src="projects(second)_images/airplane_ticket_booking_application_airtic_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-third-row-third-project-first-part-image" src="projects(second)_images/airplane_ticket_booking_application_airtic_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-third-row-third-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-third-row-third-project-second-part-title">Airplane Ticket Booking Application - AirTic Design</h1>
@@ -173,7 +180,7 @@
             <div class="main-second-part-fourth-row">
                 <div data-aos="fade-down-left" data-aos-duration="3000" class="main-second-part-fourth-row-first-project">
                     <div class="main-second-part-fourth-row-first-project-first-part">
-                        <img id="main-second-part-fourth-row-first-project-first-part-image" src="projects(second)_images/recipes_application_let's_cook_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-fourth-row-first-project-first-part-image" src="projects(second)_images/recipes_application_let's_cook_design.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-fourth-row-first-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-fourth-row-first-project-second-part-title">Recipes Application - Let's Cook Design</h1>
@@ -187,7 +194,7 @@
                 </div>
                 <div data-aos="fade-down" data-aos-duration="3000" class="main-second-part-fourth-row-second-project">
                     <div class="main-second-part-fourth-row-second-project-first-part">
-                        <img id="main-second-part-fourth-row-second-project-first-part-image" src="projects(second)_images/custom_catering_order_application_cateringin_design.png" alt="Image Not Loaded">
+                        <img id="main-second-part-fourth-row-second-project-first-part-image" src="projects(second)_images/custom_catering_order_application_cateringin_design_2.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-fourth-row-second-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-fourth-row-second-project-second-part-title">Custom Catering Order Application - CATERINGIN Design</h1>
@@ -201,7 +208,7 @@
                 </div>
                 <div data-aos="fade-up-right" data-aos-duration="3000" class="main-second-part-fourth-row-third-project">
                     <div class="main-second-part-fourth-row-third-project-first-part">
-                        <img id="main-second-part-fourth-row-third-project-first-part-image" src="projects(second)_images/airplane_ticket_booking_application_airtic_design_2.png" alt="Image Not Loaded">
+                        <img id="main-second-part-fourth-row-third-project-first-part-image" src="projects(second)_images/airplane_ticket_booking_application_airtic_design_2.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-fourth-row-third-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-fourth-row-third-project-second-part-title">Airplane Ticket Booking Application - AirTic Design</h1>
@@ -217,7 +224,7 @@
             <div class="main-second-part-fifth-row">
                 <div data-aos="fade-down-left" data-aos-duration="3000" class="main-second-part-fifth-row-first-project">
                     <div class="main-second-part-fifth-row-first-project-first-part">
-                        <img id="main-second-part-fifth-row-first-project-first-part-image" src="projects(second)_images/bus_ticket_booking_application_bustic_design_2.png" alt="Image Not Loaded">
+                        <img id="main-second-part-fifth-row-first-project-first-part-image" src="projects(second)_images/bus_ticket_booking_application_bustic_design_2.jpg" alt="Image Not Loaded">
                     </div>
                     <div class="main-second-part-fifth-row-first-project-second-part">
                         <h1 class="inter-bold" id="main-second-part-fifth-row-first-project-second-part-title">Bus Ticket Booking Application - BusTic Design</h1>
@@ -244,8 +251,53 @@
             </a>
         </div>
     </div>
+    <div class="footer">
+        <div class="footer-first-part">
+            <a href="https://www.facebook.com/brian.steve.9678?locale=id_ID" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-facebook" src="home_images/facebook_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://www.instagram.com/briansteve1901" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-instagram" src="home_images/instagram_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://www.linkedin.com/in/brian-s-b2aa24202/" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-linkedin" src="home_images/linkedin_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://www.youtube.com/c/BrianSteve/videos" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-youtube" src="home_images/youtube_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://www.tiktok.com/@briansteve1901" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-tiktok" src="home_images/tiktok_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://www.behance.net/briansteve1901" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-behance" src="home_images/behance_logo.png" alt="Image Not Loaded">
+            </a>
+            <a href="https://dribbble.com/briansteve1901" target="_blank">
+                <img width="28px" height="28px" id="footer-first-part-dribble" src="home_images/dribble_logo.png" alt="Image Not Loaded">
+            </a>
+        </div>
+        <div class="footer-second-part">
+            <p class="inter-bold" id="footer-second-part-body">© Brian Steve 2024</p>
+        </div>
+    </div>
 </body>
 </html>
 <script>
     AOS.init();
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const closeMenu = document.getElementById('close-menu');
+    const rightHeader = document.querySelector('.inner-right-header');
+
+    hamburgerMenu.addEventListener('click', () => {
+        // Open the menu and show the close icon
+        rightHeader.classList.add('open');
+        hamburgerMenu.classList.add('open'); // Hide hamburger
+        closeMenu.classList.add('open'); // Show close icon
+    });
+
+    closeMenu.addEventListener('click', () => {
+        // Close the menu and show the hamburger icon
+        rightHeader.classList.remove('open');
+        hamburgerMenu.classList.remove('open'); // Show hamburger
+        closeMenu.classList.remove('open'); // Hide close icon
+    });
 </script>
