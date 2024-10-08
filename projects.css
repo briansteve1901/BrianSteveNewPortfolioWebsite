@@ -90,13 +90,13 @@ li {
     margin-right: 3rem; /* 48px / 16 = 3rem */
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
-    color: #007CFF;
+    color: #303135;
 }
 
 #inner-right-header-my-projects {
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
-    color: #303135;
+    color: #007CFF;
 }
 
 /* Hamburger Menu Styles */
@@ -174,11 +174,11 @@ li {
 .main-second-part-first-row-first-project-first-part,
 .main-second-part-first-row-first-project-second-part {
     margin-bottom: 1.5rem; /* 1.5rem = 24px */
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-first-row-first-project-third-part {
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-first-row-first-project-second-part-title {
@@ -220,11 +220,11 @@ li {
 .main-second-part-first-row-second-project-first-part,
 .main-second-part-first-row-second-project-second-part {
     margin-bottom: 1.5rem; /* 1.5rem = 24px */
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-first-row-second-project-third-part {
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-first-row-second-project-second-part-title {
@@ -265,11 +265,11 @@ li {
 .main-second-part-first-row-third-project-first-part,
 .main-second-part-first-row-third-project-second-part {
     margin-bottom: 1.5rem; /* 1.5rem = 24px */
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-first-row-third-project-third-part {
-    width: 20rem; /* 20rem = 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-first-row-third-project-second-part-title {
@@ -316,11 +316,11 @@ li {
 .main-second-part-second-row-first-project-first-part,
 .main-second-part-second-row-first-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-second-row-first-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-second-row-first-project-second-part-title {
@@ -362,11 +362,11 @@ li {
 .main-second-part-second-row-second-project-first-part,
 .main-second-part-second-row-second-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-second-row-second-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-second-row-second-project-second-part-title {
@@ -407,11 +407,11 @@ li {
 .main-second-part-second-row-third-project-first-part,
 .main-second-part-second-row-third-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-second-row-third-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-second-row-third-project-second-part-title {
@@ -458,11 +458,11 @@ li {
 .main-second-part-third-row-first-project-first-part,
 .main-second-part-third-row-first-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px *//
 }
 
 .main-second-part-third-row-first-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-third-row-first-project-second-part-title {
@@ -504,11 +504,11 @@ li {
 .main-second-part-third-row-second-project-first-part,
 .main-second-part-third-row-second-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-third-row-second-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-third-row-second-project-second-part-title {
@@ -549,11 +549,11 @@ li {
 .main-second-part-third-row-third-project-first-part,
 .main-second-part-third-row-third-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-third-row-third-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-third-row-third-project-second-part-title {
@@ -600,11 +600,11 @@ li {
 .main-second-part-fourth-row-first-project-first-part,
 .main-second-part-fourth-row-first-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-fourth-row-first-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-fourth-row-first-project-second-part-title {
@@ -646,11 +646,11 @@ li {
 .main-second-part-fourth-row-second-project-first-part,
 .main-second-part-fourth-row-second-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-fourth-row-second-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-fourth-row-second-project-second-part-title {
@@ -691,11 +691,11 @@ li {
 .main-second-part-fourth-row-third-project-first-part,
 .main-second-part-fourth-row-third-project-second-part {
     margin-bottom: 1.5rem; /* 24px */
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 .main-second-part-fourth-row-third-project-third-part {
-    width: 20rem; /* 320px */
+    width: 20.5rem; /* 20.5rem = 328px */
 }
 
 #main-second-part-fourth-row-third-project-second-part-title {
