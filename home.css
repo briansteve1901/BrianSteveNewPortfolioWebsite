@@ -90,15 +90,15 @@ li {
 }
 
 #inner-right-header-my-projects {
-    margin-right: 3rem;
+    margin-right: 3rem; /* 48px */
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
     color: #303135;
 }
 
 #right-header-light-mode-toggle-button {
-    width: 40px;
-    height: 40px;
+    width: 2.25rem; /* 40px */
+    height: 2.25rem; /* 40px */
 }
 
 /* Hamburger Menu Styles */
@@ -1202,7 +1202,7 @@ li {
     .right-header {
         height: 2.5rem; /* 40px */
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
     
@@ -1225,7 +1225,7 @@ li {
     }
     
     #inner-right-header-my-projects {
-        margin-right: 3rem;
+        margin-right: 3rem; /* 48px */
         font-weight: bold;
         font-size: 0.9375rem; /* 15px */
         color: #303135;
@@ -1566,7 +1566,7 @@ li {
     }
     
     #inner-right-header-my-projects {
-        margin-right: 3rem;
+        margin-right: 3rem; /* 48px */
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
         color: #303135;
@@ -1914,7 +1914,7 @@ li {
         align-items: center;
     }
 
-    .inner-right-header-outer-light-mode-toggle-button {
+    .right-header-outer-light-mode-toggle-button {
         height: 2.25rem; /* 36px */
         width: 2.25rem; /* 36px */
         margin-right: 1.5rem; /* 24px */
@@ -1970,7 +1970,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
-        color: #71747D;
+        color: #303135;
     }
     
     .inner-right-header img {
@@ -2368,7 +2368,7 @@ li {
         align-items: center;
     }
 
-    .inner-right-header-outer-light-mode-toggle-button {
+    .right-header-outer-light-mode-toggle-button {
         height: 2.25rem; /* 36px */
         width: 2.25rem; /* 36px */
         margin-right: 1.5rem; /* 24px */
@@ -2848,7 +2848,7 @@ li {
         align-items: center;
     }
 
-    .inner-right-header-outer-light-mode-toggle-button {
+    .right-header-outer-light-mode-toggle-button {
         height: 2.25rem; /* 36px */
         width: 2.25rem; /* 36px */
         margin-right: 1.5rem; /* 24px */
