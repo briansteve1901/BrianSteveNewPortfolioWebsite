@@ -67,7 +67,7 @@ body {
 .right-header {
     height: 2.5rem; /* 40px / 16 = 2.5rem */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -90,9 +90,15 @@ li {
 }
 
 #inner-right-header-my-projects {
+    margin-right: 3rem;
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
     color: #303135;
+}
+
+#right-header-light-mode-toggle-button {
+    width: 40px;
+    height: 40px;
 }
 
 /* Hamburger Menu Styles */
@@ -1219,6 +1225,7 @@ li {
     }
     
     #inner-right-header-my-projects {
+        margin-right: 3rem;
         font-weight: bold;
         font-size: 0.9375rem; /* 15px */
         color: #303135;
@@ -1559,7 +1566,7 @@ li {
     }
     
     #inner-right-header-my-projects {
-        margin-right: 0px;
+        margin-right: 3rem;
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
         color: #303135;
@@ -1901,6 +1908,21 @@ li {
     
     .right-header {
         height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
@@ -1913,7 +1935,6 @@ li {
         padding-top: 2.5rem; /* 40px */
         padding-bottom: 5rem; /* 80px */
         background-color: white;
-        box-shadow: 0px 0.625rem 1.25rem rgba(0, 124, 255, 0.05);
     }
     
     li {
@@ -1949,7 +1970,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
-        color: #303135;
+        color: #71747D;
     }
     
     .inner-right-header img {
@@ -2341,6 +2362,21 @@ li {
     
     .right-header {
         height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
@@ -2806,6 +2842,21 @@ li {
     
     .right-header {
         height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
