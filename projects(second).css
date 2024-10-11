@@ -71,7 +71,7 @@ body {
 .right-header {
     height: 2.5rem; /* 40px / 16 = 2.5rem */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -94,9 +94,15 @@ li {
 }
 
 #inner-right-header-my-projects {
+    margin-right: 3rem; /* 48px */
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
     color: #007CFF;
+}
+
+#right-header-light-mode-toggle-button {
+    width: 2.25rem; /* 40px */
+    height: 2.25rem; /* 40px */
 }
 
 /* Hamburger Menu Styles */
@@ -793,7 +799,6 @@ li {
     background-color: #007CFF;
     border-radius: 0.5rem; /* 8px */
     font-size: 0.9375rem; /* 15px */
-    border: 1px solid #007CFF;
     color: white;
 }
 
@@ -861,7 +866,7 @@ li {
     .right-header {
         height: 2.5rem; /* 40px */
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
     
@@ -880,13 +885,13 @@ li {
         margin-right: 3rem; /* 48px = 3rem */
         font-weight: bold;
         font-size: 0.9375rem; /* 15px */
-        color: #007CFF;
+        color: #303135;
     }
     
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.9375rem; /* 15px */
-        color: #303135;
+        color: #007CFF;
     }
     
     .main-second-part {
@@ -933,7 +938,7 @@ li {
         color: #007CFF;
         font-size: 0.9375rem; /* 15px */
         margin-right: 1rem; /* 16px = 1rem */
-        border: 1px solid #007CFF;
+        border: 0.063rem solid #007CFF;
     }
     
     .main-third-part-page-two {
@@ -941,7 +946,6 @@ li {
         background-color: #007CFF;
         border-radius: 0.5rem; /* 8px */
         font-size: 0.9375rem; /* 15px */
-        border: 1px solid #007CFF;
         color: white;
     } 
 
@@ -1000,14 +1004,14 @@ li {
         margin-right: 3rem; /* 48px = 3rem */
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
-        color: #007CFF;
+        color: #303135;
     }
     
     #inner-right-header-my-projects {
-        margin-right: 0; /* 0px */
+        margin-right: 3rem; /* 48px */
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
-        color: #303135;
+        color: #007CFF;
     }
     
     #main-first-part-body {
@@ -1110,7 +1114,7 @@ li {
         color: #007CFF;
         font-size: 0.875rem; /* 14px */
         margin-right: 1rem; /* 16px = 1rem */
-        border: 1px solid #007CFF;
+        border: 0.063rem solid #007CFF;
     }
     
     .main-third-part-page-two {
@@ -1118,7 +1122,6 @@ li {
         background-color: #007CFF;
         border-radius: 0.5rem; /* 8px */
         font-size: 0.875rem; /* 14px */
-        border: 1px solid #007CFF;
         color: white;
     }
     
@@ -1172,7 +1175,22 @@ li {
     }
     
     .right-header {
-        height: 2.25rem; /* 36px / 16 = 2.25rem */
+        height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
@@ -1215,13 +1233,13 @@ li {
     #inner-right-header-home {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #303135;
+        color: #007CFF;
     }
     
     .inner-right-header img {
@@ -1332,7 +1350,7 @@ li {
         color: #007CFF;
         font-size: 0.875rem; /* 14px */
         margin-right: 1rem; /* 16px = 1rem */
-        border: 1px solid #007CFF;
+        border: 0.063rem solid #007CFF;
     }
     
     .main-third-part-page-two {
@@ -1340,7 +1358,6 @@ li {
         background-color: #007CFF;
         border-radius: 0.5rem; /* 8px */
         font-size: 0.875rem; /* 14px */
-        border: 1px solid #007CFF;
         color: white;
     }
     
@@ -1395,7 +1412,22 @@ li {
     }
     
     .right-header {
-        height: 2.25rem; /* 36px / 16 = 2.25rem */
+        height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
@@ -1438,13 +1470,13 @@ li {
     #inner-right-header-home {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #303135;
+        color: #007CFF;
     }
     
     .inner-right-header img {
@@ -1555,7 +1587,7 @@ li {
         color: #007CFF;
         font-size: 0.8125rem; /* 13px */
         margin-right: 1rem; /* 16px = 1rem */
-        border: 1px solid #007CFF;
+        border: 0.063rem solid #007CFF;
     }
     
     .main-third-part-page-two {
@@ -1563,7 +1595,6 @@ li {
         background-color: #007CFF;
         border-radius: 0.5rem; /* 8px */
         font-size: 0.8125rem; /* 13px */
-        border: 1px solid #007CFF;
         color: white;
     }
     
@@ -1618,7 +1649,22 @@ li {
     }
     
     .right-header {
-        height: 2.25rem; /* 36px / 16 = 2.25rem */
+        height: 2.25rem; /* 36px */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-header-outer-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
+        margin-right: 1.5rem; /* 24px */
+    }
+
+    #right-header-light-mode-toggle-button {
+        height: 2.25rem; /* 36px */
+        width: 2.25rem; /* 36px */
     }
     
     .inner-right-header {
@@ -1661,13 +1707,13 @@ li {
     #inner-right-header-home {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #303135;
+        color: #007CFF;
     }
     
     .inner-right-header img {
@@ -1931,7 +1977,7 @@ li {
         color: #007CFF;
         font-size: 0.8125rem; /* 13px */
         margin-right: 1rem; /* 16px = 1rem */
-        border: 1px solid #007CFF;
+        border: 0.063rem solid #007CFF;
     }
     
     .main-third-part-page-two {
@@ -1939,7 +1985,6 @@ li {
         background-color: #007CFF;
         border-radius: 0.5rem; /* 8px */
         font-size: 0.8125rem; /* 13px */
-        border: 1px solid #007CFF;
         color: white;
     }
     
