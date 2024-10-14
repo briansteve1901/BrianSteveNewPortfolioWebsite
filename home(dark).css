@@ -1307,7 +1307,7 @@ li {
     .second-content {
         display: flex;
         flex-direction: column;
-        padding: 5.25rem 0; /* 84px 0 */
+        padding: 5.25rem 4.25rem; /* 84px 68px */
         background-color: #222329;
     }
     
