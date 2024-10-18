@@ -97,7 +97,7 @@ li {
     margin-right: 3rem; /* 48px */
     font-weight: bold;
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
-    color: #007CFF;
+    color: #303135;
 }
 
 #right-header-light-mode-toggle-button {
@@ -891,7 +891,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.9375rem; /* 15px */
-        color: #007CFF;
+        color: #303135;
     }
     
     .main-second-part {
@@ -1011,7 +1011,7 @@ li {
         margin-right: 3rem; /* 48px */
         font-weight: bold;
         font-size: 0.875rem; /* 14px */
-        color: #007CFF;
+        color: #303135;
     }
     
     #main-first-part-body {
@@ -1239,7 +1239,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     .inner-right-header img {
@@ -1476,7 +1476,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     .inner-right-header img {
@@ -1713,7 +1713,7 @@ li {
     #inner-right-header-my-projects {
         font-weight: bold;
         font-size: 0.875rem; /* 14px / 16 = 0.875rem */
-        color: #007CFF;
+        color: #303135;
     }
     
     .inner-right-header img {
