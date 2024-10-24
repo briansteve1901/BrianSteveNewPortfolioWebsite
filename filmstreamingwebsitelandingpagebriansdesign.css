@@ -803,7 +803,7 @@ li {
     }
 
     .first-content {
-        padding: 5.25rem 0rem 5.25rem 2.5rem; /* Converted from 84px and 40px */
+        padding: 4.5rem 0rem 4.5rem 2.5rem; /* Converted from 72px and 40px */
         display: flex;
         flex-direction: column;
     }
@@ -993,7 +993,7 @@ li {
     }
 
     .first-content {
-        padding: 5.25rem 0rem 5.25rem 1.75rem; /* Converted from 84px and 28px */
+        padding: 4.5rem 0rem 4.5rem 1.75rem; /* Converted from 72px and 28px */
         display: flex;
         flex-direction: column;
     }
@@ -1074,4 +1074,3 @@ li {
     }
     
 }
-
