@@ -803,7 +803,7 @@ li {
     }
 
     .first-content {
-        padding: 4.5rem 0rem 4.5rem 2.5rem; /* Converted from 72px and 40px */
+        padding: 4rem 0rem 4.5rem 1.75rem; /* Converted from 64px, 72px, and 28px */
         display: flex;
         flex-direction: column;
     }
@@ -830,27 +830,27 @@ li {
     #first-content-second-part-first-row-first-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 3rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
         margin-right: 3rem; /* Converted from 48px */
     }
     
     #first-content-second-part-first-row-second-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 3rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
     }
     
     #first-content-second-part-second-row-first-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 3rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
         margin-right: 3rem; /* 48px */
     }
     
     #first-content-second-part-second-row-second-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 3rem; /* 48px */
+        margin-top: 2.5rem; /* 40px */
     }
 
     .first-content-third-part {
@@ -860,14 +860,14 @@ li {
     #first-content-third-part-body {
         font-size: 0.875rem; /* Converted from 14px */
         color: #71747d;
-        margin-top: 2.5rem; /* Converted from 40px */
+        margin-top: 2.25rem; /* Converted from 36px */
         width: 19rem; /* 304px */
     }
     
     #first-content-third-part-body a {
         font-size: 0.875rem; /* Converted from 14px */
         color: #007CFF;
-        margin-top: 2.5rem; /* Converted from 40px */
+        margin-top: 2.25rem; /* Converted from 36px */
     }
     
     #footer-second-part-body {
@@ -993,7 +993,7 @@ li {
     }
 
     .first-content {
-        padding: 4rem 0rem 4.5rem 1.75rem; /* Converted from 64px and 28px */
+        padding: 4rem 0rem 4.5rem 1.75rem; /* Converted from 64px, 72px, and 28px */
         display: flex;
         flex-direction: column;
     }
@@ -1020,27 +1020,27 @@ li {
     #first-content-second-part-first-row-first-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 2.5rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
         margin-right: 3rem; /* Converted from 48px */
     }
     
     #first-content-second-part-first-row-second-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 2.5rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
     }
     
     #first-content-second-part-second-row-first-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 2.5rem; /* Converted from 48px */
+        margin-top: 2.5rem; /* Converted from 40px */
         margin-right: 3rem; /* 48px */
     }
     
     #first-content-second-part-second-row-second-image {
         width: 16.875rem; /* Converted from 270px */
         height: 16.875rem; /* Converted from 270px */
-        margin-top: 2.5rem; /* 48px */
+        margin-top: 2.5rem; /* 40px */
     }
 
     .first-content-third-part {
@@ -1050,14 +1050,14 @@ li {
     #first-content-third-part-body {
         font-size: 0.875rem; /* Converted from 14px */
         color: #71747d;
-        margin-top: 2.25rem; /* Converted from 40px */
+        margin-top: 2.25rem; /* Converted from 36px */
         width: 19rem; /* 304px */
     }
     
     #first-content-third-part-body a {
         font-size: 0.875rem; /* Converted from 14px */
         color: #007CFF;
-        margin-top: 2.25rem; /* Converted from 40px */
+        margin-top: 2.25rem; /* Converted from 36px */
     }
     
     #footer-second-part-body {
