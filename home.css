@@ -2825,7 +2825,7 @@ li {
 
     .header {
         height: 4.75rem; /* 76px */
-        padding: 1.25rem 2rem; /* 20px 32px */
+        padding: 1.25rem 1.5rem; /* 20px 24px => 1.25rem 1.5rem */
     }
     
     body {
