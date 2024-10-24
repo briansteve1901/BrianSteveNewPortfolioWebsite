@@ -993,7 +993,7 @@ li {
     }
 
     .first-content {
-        padding: 4.5rem 0rem 4.5rem 1.75rem; /* Converted from 72px and 28px */
+        padding: 4rem 0rem 4.5rem 1.75rem; /* Converted from 64px and 28px */
         display: flex;
         flex-direction: column;
     }
