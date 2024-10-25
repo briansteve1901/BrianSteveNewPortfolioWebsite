@@ -1,0 +1,11 @@
+.satu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.satu img {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 40px;
+}
