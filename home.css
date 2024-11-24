@@ -1378,7 +1378,10 @@ li {
     
     #second-content-second-part-body-group-first-paragraph,
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         color: #71747D;
         font-weight: medium;
         font-size: 1rem; /* 16px */
@@ -1719,7 +1722,10 @@ li {
     
     #second-content-second-part-body-group-first-paragraph,
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph  {
         color: #71747D;
         font-weight: medium;
         font-size: 0.9375rem; /* 15px */
@@ -2127,7 +2133,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem; /* 4px */
         text-align: justify;
         font-size: 0.938rem; /* 15px */
@@ -2582,7 +2591,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem;
         text-align: justify;
         font-size: 0.875rem; /* 14px */
@@ -3061,7 +3073,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem; /* 4px */
         text-align: justify;
         font-size: 0.875rem; /* 14px */
