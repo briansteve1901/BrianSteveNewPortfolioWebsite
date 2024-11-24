@@ -148,7 +148,7 @@ li {
 }
 
 #first-content-first-part-title {
-    margin-bottom: 1rem; /* 16px / 16 = 1rem */
+    margin-bottom: 1.5rem; /* 20px / 16 = 1.5rem */
     font-size: 3.75rem; /* 60px / 16 = 3.75rem */
     font-weight: bold;
     color: #303135;
@@ -274,7 +274,10 @@ li {
 
 #second-content-second-part-body-group-first-paragraph,
 #second-content-second-part-body-group-second-paragraph,
-#second-content-second-part-body-group-third-paragraph {
+#second-content-second-part-body-group-third-paragraph,
+#second-content-second-part-body-group-fourth-paragraph,
+#second-content-second-part-body-group-fifth-paragraph,
+#second-content-second-part-body-group-sixth-paragraph {
     color: #71747D;
     font-weight: 500; /* medium */
     font-size: 1rem; /* 16px / 16 = 1rem */
@@ -1278,7 +1281,7 @@ li {
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.75rem; /* 60px */
         font-weight: bold;
         color: #303135;
@@ -1619,7 +1622,7 @@ li {
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.5rem; /* 56px */
         font-weight: bold;
         color: #303135;
@@ -2024,7 +2027,7 @@ li {
     }
         
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.5rem; /* 56px */
         font-weight: bold;
         color: #303135;
@@ -2479,7 +2482,7 @@ li {
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.25rem; /* 52px */
         font-weight: bold;
         color: #303135;
@@ -2959,7 +2962,7 @@ li {
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 2.5rem; /* 40px */
         font-weight: bold;
         color: #303135;
