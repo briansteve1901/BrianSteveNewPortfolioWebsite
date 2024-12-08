@@ -138,18 +138,18 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2.5rem; /* 40px / 16 = 2.5rem */
+    margin-bottom: 3rem; /* 48px / 16 = 3rem */
 }
 
 #first-content-first-part-first-body {
-    margin-bottom: 1rem; /* 16px / 16 = 1rem */
+    margin-bottom: 1.5rem; /* 24px / 16 = 1.5rem */
     font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
     font-weight: 500; /* medium */
     color: #007CFF;
 }
 
 #first-content-first-part-title {
-    margin-bottom: 1rem; /* 16px / 16 = 1rem */
+    margin-bottom: 1.5rem; /* 24px / 16 = 1.5rem */
     font-size: 3.75rem; /* 60px / 16 = 3.75rem */
     font-weight: bold;
     color: white;
@@ -202,6 +202,52 @@ li {
     margin-left: 0.5rem; /* 8px / 16 = 0.5rem */
 }
 
+.flag-animation {
+    display: inline-block;
+    animation: flutter 1.5s ease-in-out infinite;
+}
+
+@keyframes flutter {
+    0% {
+        transform: rotate(0deg) translateY(0);
+    }
+    25% {
+        transform: rotate(5deg) translateY(-2px);
+    }
+    50% {
+        transform: rotate(0deg) translateY(0);
+    }
+    75% {
+        transform: rotate(-5deg) translateY(2px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0);
+    }
+}
+
+.wave {
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .carousel {
     overflow: hidden;
     width: 100%; /* Adjust to the desired carousel width */
@@ -233,7 +279,7 @@ li {
 .second-content {
     display: flex;
     flex-direction: column;
-    padding: 5.5rem 10.1875rem 5.5rem 10.1875rem; /* 88px 163px =  5.5rem 10.1875rem */
+    padding: 5.5rem 10.1875rem 6.25rem 10.1875rem; /* 88px 100px 163px =  5.5rem 10.1875rem */
     background-color: #222329;
 }
 
@@ -275,7 +321,10 @@ li {
 
 #second-content-second-part-body-group-first-paragraph,
 #second-content-second-part-body-group-second-paragraph,
-#second-content-second-part-body-group-third-paragraph {
+#second-content-second-part-body-group-third-paragraph,
+#second-content-second-part-body-group-fourth-paragraph,
+#second-content-second-part-body-group-fifth-paragraph,
+#second-content-second-part-body-group-sixth-paragraph    {
     color: #AEB2BF;
     font-weight: 500; /* medium */
     font-size: 1rem; /* 16px / 16 = 1rem */
@@ -877,6 +926,81 @@ li {
     font-size: 0.9375rem; /* 15px */
 }
 
+.fourth-content-second-part-third-row-noak {
+    padding: 1.5rem; /* 24px */
+    width: 22rem; /* 352px */
+    height: 15rem; /* 240px */
+    box-sizing: border-box;
+    border-radius: 1rem; /* 16px */
+    margin-left: 2.5rem; /* 40px */
+    background: #222329; /* Box background */
+    border: 0.25rem solid #007CFF; /* Initial border */
+    box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* Initial shadow (invisible) */
+    animation: blink-shadow-and-border 1.5s infinite alternate; /* Enhanced animation */
+}
+
+@keyframes blink-shadow-and-border {
+    0% {
+        border-color: #007CFF; /* Default border color */
+        box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* No shadow */
+    }
+    100% {
+        border-color: rgba(0, 124, 255, 1); /* Strong glowing border */
+        box-shadow: 0 0 2rem rgba(0, 124, 255, 1); /* Brighter and larger glow */
+    }
+}
+
+.fourth-content-second-part-third-row-noak-first-part {
+    margin-bottom: 2rem; /* 32px */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-noak-first-part-image {
+    box-sizing: border-box;
+}
+
+#fourth-content-second-part-third-row-noak-first-part-title {
+    font-size: 1.125rem; /* 18px */
+    font-weight: bold;
+    color: white;
+    margin-left: 0.75rem; /* 12px */
+}
+
+.fourth-content-second-part-third-row-noak-second-part-first-division {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem; /* 24px */
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-noak-second-part-first-division-image {
+    margin-right: 0.5rem; /* 8px */
+}
+
+#fourth-content-second-part-third-row-noak-second-part-first-division-work-position {
+    color: #AEB2BF;
+    font-weight: medium;
+    font-size: 0.9375rem; /* 15px */
+}
+
+.fourth-content-second-part-third-row-noak-second-part-second-division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-noak-second-part-second-division-image {
+    margin-right: 0.5rem; /* 8px */
+}
+
+#fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
+    color: #007CFF;
+    font-weight: medium;
+    font-size: 0.9375rem; /* 15px */
+}
+
 .circle-container {
     width: 3.75rem; /* 60px */
     height: 3.75rem; /* 60px */
@@ -1196,7 +1320,6 @@ li {
     font-size: 0.9375rem; /* 0.9375rem = 15px */
 }
 
-
 @media (max-width: 1200px) and (min-width: 993px) {
 
     .header {
@@ -1270,18 +1393,18 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 2.5rem; /* 40px */
+        margin-bottom: 3rem; /* 48px */
     }
     
     #first-content-first-part-first-body {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 0.9375rem; /* 15px */
         font-weight: medium;
         color: #007CFF;
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.75rem; /* 60px */
         font-weight: bold;
         color: white;
@@ -1335,7 +1458,7 @@ li {
     .second-content {
         display: flex;
         flex-direction: column;
-        padding: 5.5rem 4.25rem; /* 88px 68px */
+        padding: 5.5rem 4.25rem 6.25rem 4.25rem; /* 88px 68px 100px 68px */
         background-color: #222329;
     }
     
@@ -1377,7 +1500,10 @@ li {
     
     #second-content-second-part-body-group-first-paragraph,
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph  {
         color: #AEB2BF;
         font-weight: medium;
         font-size: 1rem; /* 16px */
@@ -1526,17 +1652,11 @@ li {
     .fourth-content-second-part-second-row-qwords,
     .fourth-content-second-part-second-row-fundex,
     .fourth-content-second-part-second-row-telkom,
-    .fourth-content-second-part-third-row-bca {
+    .fourth-content-second-part-third-row-bca,
+    .fourth-content-second-part-third-row-noak {
         grid-column: span 1;
         margin: 0;
-    }
-    
-    /* Center the BCA job in the last row */
-    .fourth-content-second-part-third-row-bca {
-        grid-column: 1 / -1; /* Spans full width */
-        justify-self: center; /* Center the item */
-        /* Optionally, adjust the width to center visually */
-    }    
+    }   
 
 }
 
@@ -1611,18 +1731,18 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 2.5rem; /* 40px */
+        margin-bottom: 3rem; /* 48px */
     }
     
     #first-content-first-part-first-body {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 0.875rem; /* 14px */
         font-weight: medium;
         color: #007CFF;
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.5rem; /* 56px */
         font-weight: bold;
         color: white;
@@ -1676,7 +1796,7 @@ li {
     .second-content {
         display: flex;
         flex-direction: column;
-        padding: 5.5rem 4.25rem 5.5rem 4.25rem; /* 88px 68px 88px 68px */
+        padding: 5.5rem 4.25rem 6.25rem 4.25rem; /* 88px 68px 100px 68px */
         background-color: #222329;
     }
     
@@ -1718,7 +1838,10 @@ li {
     
     #second-content-second-part-body-group-first-paragraph,
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         color: #AEB2BF;
         font-weight: medium;
         font-size: 0.9375rem; /* 15px */
@@ -1772,7 +1895,8 @@ li {
     #fourth-content-second-part-second-row-qwords-first-part-title,
     #fourth-content-second-part-second-row-fundex-first-part-title,
     #fourth-content-second-part-second-row-telkom-first-part-title,
-    #fourth-content-second-part-third-row-bca-first-part-title {
+    #fourth-content-second-part-third-row-bca-first-part-title,
+    #fourth-content-second-part-third-row-noak-first-part-title {
         font-size: 1.0625rem; /* 17px */
     }
     
@@ -1789,7 +1913,9 @@ li {
     #fourth-content-second-part-second-row-telkom-second-part-first-division-work-position,
     #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period,
     #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
-    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
+    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
     }
     
@@ -1813,16 +1939,10 @@ li {
     .fourth-content-second-part-second-row-qwords,
     .fourth-content-second-part-second-row-fundex,
     .fourth-content-second-part-second-row-telkom,
-    .fourth-content-second-part-third-row-bca {
+    .fourth-content-second-part-third-row-bca,
+    .fourth-content-second-part-third-row-noak {
         grid-column: span 1;
         margin: 0;
-    }
-    
-    /* Center the BCA job in the last row */
-    .fourth-content-second-part-third-row-bca {
-        grid-column: 1 / -1; /* Spans full width */
-        justify-self: center; /* Center the item */
-        /* Optionally, adjust the width to center visually */
     }
     
     #fifth-content-first-part-body {
@@ -2015,18 +2135,18 @@ li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 2.5rem; /* 40px */
+        margin-bottom: 3rem; /* 48px */
     }
         
     #first-content-first-part-first-body {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 0.875rem; /* 14px */
         font-weight: medium;
         color: #007CFF;
     }
         
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.5rem; /* 56px */
         font-weight: bold;
         color: white;
@@ -2078,7 +2198,7 @@ li {
     }    
 
     .second-content {
-        padding: 4.5rem 0 4.5rem 0; /* 72px 0px 72px 0px */
+        padding: 5.5rem 0 6.25rem 0; /* 88px 0px 100px 0px */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2125,7 +2245,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem; /* 4px */
         text-align: justify;
         font-size: 0.938rem; /* 15px */
@@ -2181,7 +2304,12 @@ li {
     
     .fourth-content-second-part-first-row-niagahoster,
     .fourth-content-second-part-second-row-fundex {
-        margin: 2.5rem 0; /* 40px 0px 40px 0px */
+        margin: 3rem 0; /* 48px 0px 48px 0px */
+    }
+
+    .fourth-content-second-part-third-row-noak {
+        margin-left: 0;
+        margin-top: 3rem; /* 48px */
     }
     
     #fourth-content-second-part-first-row-bncc-first-part-title {
@@ -2244,6 +2372,15 @@ li {
     
     #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
     #fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    #fourth-content-second-part-third-row-noak-first-part-title {
+        font-size: 1.0625rem; /* 17px */
+    }
+    
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
     }
     
@@ -2351,7 +2488,6 @@ li {
         font-size: 0.9375rem; /* 15px */
     }
     
-
 }
 
 @media (max-width: 576px) and (min-width: 361px) {
@@ -2461,25 +2597,25 @@ li {
     }
     
     .first-content {
-        padding: 4.5rem 0; /* 72px 0px 72px 0px */
+        padding: 5.25rem 0 5.5rem 0; /* 84px 0px 88px 0px */
     }
     
     .first-content-first-part {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 2.5rem; /* 40px */
+        margin-bottom: 3rem; /* 48px */
     }
     
     #first-content-first-part-first-body {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 0.875rem; /* 14px */
         font-weight: medium;
         color: #007CFF;
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 3.25rem; /* 52px */
         font-weight: bold;
         color: white;
@@ -2531,7 +2667,7 @@ li {
     }    
 
     .second-content {
-        padding: 4.5rem 0 4.5rem 0; /* 72px 0px 72px 0px */
+        padding: 5.5rem 0 6.25rem 0; /* 88px 0px 100px 0px */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2578,7 +2714,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem;
         text-align: justify;
         font-size: 0.875rem; /* 14px */
@@ -2663,6 +2802,11 @@ li {
     .fourth-content-second-part-second-row-fundex {
         margin: 2.5rem 0; /* 40px 0px 40px 0px */
     }
+
+    .fourth-content-second-part-third-row-noak {
+        margin-top: 3rem; /* 48px */
+        margin-left: 0;
+    }
     
     #fourth-content-second-part-first-row-bncc-first-part-title {
         font-size: 1.0625rem; /* 17px */
@@ -2725,7 +2869,16 @@ li {
     #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
     #fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
-    }    
+    }  
+    
+    #fourth-content-second-part-third-row-noak-first-part-title {
+        font-size: 1.0625rem; /* 17px */
+    }
+    
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }   
 
     .fifth-content-first-part {
         margin-bottom: 3.25rem; /* 52px */
@@ -2939,25 +3092,25 @@ li {
     }
     
     .first-content {
-        padding: 4.5rem 0; /* 72px 0px 72px 0px */
+        padding: 5.25rem 0 5.5rem 0; /* 84px 0px 88px 0px */
     }
     
     .first-content-first-part {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 2.5rem; /* 40px */
+        margin-bottom: 3rem; /* 48px */
     }
     
     #first-content-first-part-first-body {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 0.8125rem; /* 13px */
         font-weight: medium;
         color: #007CFF;
     }
     
     #first-content-first-part-title {
-        margin-bottom: 1rem; /* 16px */
+        margin-bottom: 1.5rem; /* 24px */
         font-size: 2.5rem; /* 40px */
         font-weight: bold;
         color: white;
@@ -3055,7 +3208,10 @@ li {
     }
 
     #second-content-second-part-body-group-second-paragraph,
-    #second-content-second-part-body-group-third-paragraph {
+    #second-content-second-part-body-group-third-paragraph,
+    #second-content-second-part-body-group-fourth-paragraph,
+    #second-content-second-part-body-group-fifth-paragraph,
+    #second-content-second-part-body-group-sixth-paragraph {
         margin-top: 0.25rem; /* 4px */
         text-align: justify;
         font-size: 0.875rem; /* 14px */
@@ -3148,7 +3304,8 @@ li {
     .fourth-content-second-part-second-row-fundex,
     .fourth-content-second-part-second-row-qwords,
     .fourth-content-second-part-second-row-telkom,
-    .fourth-content-second-part-third-row-bca {
+    .fourth-content-second-part-third-row-bca,
+    .fourth-content-second-part-third-row-noak {
         width: 19rem; /* 304px */
         height: 13.75rem; /* 220px */
         box-sizing: border-box;
@@ -3158,6 +3315,11 @@ li {
     .fourth-content-second-part-first-row-niagahoster,
     .fourth-content-second-part-second-row-fundex {
         margin: 2.5rem 0; /* 40px 0px */
+    }
+
+    .fourth-content-second-part-third-row-noak {
+        margin-left: 0;
+        margin-top: 3rem; /* 48px */
     }
     
     #fourth-content-second-part-first-row-bncc-first-part-title {
@@ -3220,6 +3382,15 @@ li {
     
     #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
     #fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    #fourth-content-second-part-third-row-noak-first-part-title {
+        font-size: 1.0625rem; /* 17px */
+    }
+    
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
     }
 
