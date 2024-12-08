@@ -201,6 +201,52 @@ li {
     margin-left: 0.5rem; /* 8px / 16 = 0.5rem */
 }
 
+.flag-animation {
+    display: inline-block;
+    animation: flutter 1.5s ease-in-out infinite;
+}
+
+@keyframes flutter {
+    0% {
+        transform: rotate(0deg) translateY(0);
+    }
+    25% {
+        transform: rotate(5deg) translateY(-2px);
+    }
+    50% {
+        transform: rotate(0deg) translateY(0);
+    }
+    75% {
+        transform: rotate(-5deg) translateY(2px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0);
+    }
+}
+
+.wave {
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .carousel {
     overflow: hidden;
     width: 100%; /* Adjust to the desired carousel width */
