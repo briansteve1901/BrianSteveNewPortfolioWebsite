@@ -932,20 +932,7 @@ li {
     margin-left: 2.5rem; /* 40px */
     background: white; /* Box background */
     box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* Initial shadow (invisible) */
-    animation: blink-shadow-and-border 1s infinite alternate; /* Combined animation */
 }
-
-@keyframes blink-shadow-and-border {
-    0% {
-        border-color: #007CFF; /* Default border color */
-        box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* No shadow */
-    }
-    100% {
-        border-color: rgba(0, 124, 255, 0.8); /* Glowing border color */
-        box-shadow: 0 0 1.5rem rgba(0, 124, 255, 0.8); /* Bright glowing shadow */
-    }
-}
-
 
 .fourth-content-second-part-third-row-noak-first-part {
     margin-bottom: 2rem; /* 32px */
