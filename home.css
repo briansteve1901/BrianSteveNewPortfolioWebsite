@@ -2297,6 +2297,10 @@ li {
         margin-left: 0;
         margin-top: 3rem; /* 48px */
     }
+
+    .fourth-content-second-part-third-row-bca {
+        margin-right: 0;
+    }
     
     #fourth-content-second-part-first-row-bncc-first-part-title {
         font-size: 1.0625rem; /* 17px */
@@ -2795,6 +2799,10 @@ li {
     .fourth-content-second-part-third-row-noak {
         margin-top: 3rem; /* 48px */
         margin-left: 0rem;
+    }
+
+    .fourth-content-second-part-third-row-bca {
+        margin-right: 0;
     }
     
     #fourth-content-second-part-first-row-bncc-first-part-title {
