@@ -924,14 +924,12 @@ li {
 }
 
 .fourth-content-second-part-third-row-noak {
+    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
     padding: 1.5rem; /* 24px */
     width: 22rem; /* 352px */
     height: 15rem; /* 240px */
     box-sizing: border-box;
     border-radius: 1rem; /* 16px */
-    margin-left: 2.5rem; /* 40px */
-    background: white; /* Box background */
-    box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* Initial shadow (invisible) */
 }
 
 .fourth-content-second-part-third-row-noak-first-part {
