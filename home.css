@@ -870,6 +870,7 @@ li {
     height: 15rem; /* 240px */
     box-sizing: border-box;
     border-radius: 1rem; /* 16px */
+    margin: 0 2.5rem 0 0; /* 0px 40px 0px 0px */
 }
 
 .fourth-content-second-part-third-row-bca-first-part {
