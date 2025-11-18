@@ -939,17 +939,6 @@ li {
     animation: blink-shadow-and-border 1.5s infinite alternate; /* Enhanced animation */
 }
 
-@keyframes blink-shadow-and-border {
-    0% {
-        border-color: #007CFF; /* Default border color */
-        box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* No shadow */
-    }
-    100% {
-        border-color: rgba(0, 124, 255, 1); /* Strong glowing border */
-        box-shadow: 0 0 2rem rgba(0, 124, 255, 1); /* Brighter and larger glow */
-    }
-}
-
 .fourth-content-second-part-third-row-noak-first-part {
     margin-bottom: 2rem; /* 32px */
     display: flex;
@@ -3507,3 +3496,4 @@ li {
     }
     
 }
+
