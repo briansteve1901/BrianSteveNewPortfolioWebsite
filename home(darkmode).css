@@ -934,9 +934,7 @@ li {
     border-radius: 1rem; /* 16px */
     margin-left: 2.5rem; /* 40px */
     background: #222329; /* Box background */
-    border: 0.25rem solid #007CFF; /* Initial border */
     box-shadow: 0 0 0.5rem rgba(0, 124, 255, 0); /* Initial shadow (invisible) */
-    animation: blink-shadow-and-border 1.5s infinite alternate; /* Enhanced animation */
 }
 
 .fourth-content-second-part-third-row-noak-first-part {
@@ -3496,4 +3494,5 @@ li {
     }
     
 }
+
 
