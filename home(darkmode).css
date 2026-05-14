@@ -453,10 +453,6 @@ li {
     margin-left: 1.5rem; /* 24px */
 }
 
-/* ========================= */
-/* FOURTH CONTENT */
-/* ========================= */
-
 .fourth-content {
     padding: 0 0 5.5rem 0;
     display: flex;
@@ -482,35 +478,24 @@ li {
 }
 
 /* ========================= */
-/* ALL ROWS */
+/* ROW LAYOUT */
 /* ========================= */
 
-.fourth-content-second-part-first-row,
-.fourth-content-second-part-second-row,
-.fourth-content-second-part-third-row,
-.fourth-content-second-part-fourth-row {
+.experience-row {
     display: flex;
     justify-content: center;
-    gap: 2.5rem; /* 40px */
+    gap: 2.5rem;
     flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
 /* ========================= */
-/* ALL EXPERIENCE CARDS */
+/* CARD */
 /* ========================= */
 
-.fourth-content-second-part-first-row-bncc,
-.fourth-content-second-part-first-row-niagahoster,
-.fourth-content-second-part-first-row-nuri,
-.fourth-content-second-part-second-row-qwords,
-.fourth-content-second-part-second-row-fundex,
-.fourth-content-second-part-second-row-telkom,
-.fourth-content-second-part-third-row-bca,
-.fourth-content-second-part-third-row-noak,
-.fourth-content-second-part-third-row-bncc-uiux,
-.fourth-content-second-part-fourth-row-bncc-uiux-trainer {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
+.experience-card {
+    background: #121212;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.35);
     padding: 1.5rem;
     width: 22rem;
     height: 15rem;
@@ -519,114 +504,75 @@ li {
 }
 
 /* ========================= */
-/* CARD TOP SECTION */
+/* HEADER */
 /* ========================= */
 
-.fourth-content-second-part-first-row-bncc-first-part,
-.fourth-content-second-part-first-row-niagahoster-first-part,
-.fourth-content-second-part-first-row-nuri-first-part,
-.fourth-content-second-part-second-row-qwords-first-part,
-.fourth-content-second-part-second-row-fundex-first-part,
-.fourth-content-second-part-second-row-telkom-first-part,
-.fourth-content-second-part-third-row-bca-first-part,
-.fourth-content-second-part-third-row-noak-first-part,
-.fourth-content-second-part-third-row-bncc-uiux-first-part,
-.fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part {
+.card-header {
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
 }
 
+.card-header .circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ========================= */
-/* ALL TITLES */
+/* TITLE (COMPANY NAME) */
 /* ========================= */
 
-#fourth-content-second-part-first-row-bncc-first-part-title,
-#fourth-content-second-part-first-row-niagahoster-first-part-title,
-#fourth-content-second-part-first-row-nuri-first-part-title,
-#fourth-content-second-part-second-row-qwords-first-part-title,
-#fourth-content-second-part-second-row-fundex-first-part-title,
-#fourth-content-second-part-second-row-telkom-first-part-title,
-#fourth-content-second-part-third-row-bca-first-part-title,
-#fourth-content-second-part-third-row-noak-first-part-title,
-#fourth-content-second-part-third-row-bncc-uiux-first-part-title,
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-title {
+.card-title {
     font-size: 1.125rem;
     font-weight: bold;
-    color: #303135;
+    color: #ffffff;
     margin-left: 0.75rem;
     text-align: left;
 }
 
 /* ========================= */
-/* FIRST DIVISION */
+/* INFO ROWS */
 /* ========================= */
 
-.fourth-content-second-part-first-row-bncc-second-part-first-division,
-.fourth-content-second-part-first-row-niagahoster-second-part-first-division,
-.fourth-content-second-part-first-row-nuri-second-part-first-division,
-.fourth-content-second-part-second-row-qwords-second-part-first-division,
-.fourth-content-second-part-second-row-fundex-second-part-first-division,
-.fourth-content-second-part-second-row-telkom-second-part-first-division,
-.fourth-content-second-part-third-row-bca-second-part-first-division,
-.fourth-content-second-part-third-row-noak-second-part-first-division,
-.fourth-content-second-part-third-row-bncc-uiux-second-part-first-division,
-.fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division {
+.card-info-row {
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
 }
 
-/* ========================= */
-/* SECOND DIVISION */
-/* ========================= */
-
-.fourth-content-second-part-first-row-bncc-second-part-second-division,
-.fourth-content-second-part-first-row-niagahoster-second-part-second-division,
-.fourth-content-second-part-first-row-nuri-second-part-second-division,
-.fourth-content-second-part-second-row-qwords-second-part-second-division,
-.fourth-content-second-part-second-row-fundex-second-part-second-division,
-.fourth-content-second-part-second-row-telkom-second-part-second-division,
-.fourth-content-second-part-third-row-bca-second-part-second-division,
-.fourth-content-second-part-third-row-noak-second-part-second-division,
-.fourth-content-second-part-third-row-bncc-uiux-second-part-second-division,
-.fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division {
-    display: flex;
-    align-items: center;
+.card-info-row:last-child {
+    margin-bottom: 0;
 }
 
-/* ========================= */
-/* ICONS */
-/* ========================= */
-
-img[id*="division-image"] {
+.card-info-row img {
     margin-right: 0.5rem;
 }
 
 /* ========================= */
-/* WORK POSITION */
+/* POSITION */
 /* ========================= */
 
-p[id*="work-position"] {
-    color: #71747D;
+.card-position {
+    color: #AEB2BF;
     font-size: 0.9375rem;
     text-align: left;
 }
 
 /* ========================= */
-/* WORK PERIOD */
+/* PERIOD */
 /* ========================= */
 
-p[id*="work-period"] {
+.card-period {
     color: #007CFF;
     font-size: 0.9375rem;
 }
 
 /* ========================= */
-/* NOAK IMAGE FIX */
+/* OPTIONAL IMAGE FIX (NOAK) */
 /* ========================= */
 
-#fourth-content-second-part-third-row-noak-first-part-image {
+.noak-image {
     width: 80px;
     height: 80px;
     object-fit: cover;
