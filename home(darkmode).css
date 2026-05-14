@@ -1266,20 +1266,22 @@ p[id*="work-period"] {
         margin-left: 1.5rem; /* 24px */
     }    
 
-    .fourth-content-second-part {
+      .fourth-content-second-part {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2.5rem; /* 40px */
+        gap: 2.5rem;
+        justify-items: center;
     }
-    
-    /* For each row in the layout, arrange 2 items per row */
-    .fourth-content-second-part-first-row, 
+
+    /* Remove row flex layouts */
+    .fourth-content-second-part-first-row,
     .fourth-content-second-part-second-row,
-    .fourth-content-second-part-third-row {
-        display: contents; /* Ensures child elements align within the grid structure */
+    .fourth-content-second-part-third-row,
+    .fourth-content-second-part-fourth-row {
+        display: contents;
     }
-    
-    /* Make all the job divs take up 1 grid space (so 2 per row) */
+
+    /* All cards */
     .fourth-content-second-part-first-row-bncc,
     .fourth-content-second-part-first-row-niagahoster,
     .fourth-content-second-part-first-row-nuri,
@@ -1287,10 +1289,13 @@ p[id*="work-period"] {
     .fourth-content-second-part-second-row-fundex,
     .fourth-content-second-part-second-row-telkom,
     .fourth-content-second-part-third-row-bca,
-    .fourth-content-second-part-third-row-noak {
-        grid-column: span 1;
+    .fourth-content-second-part-third-row-noak,
+    .fourth-content-second-part-third-row-bncc-uiux,
+    .fourth-content-second-part-fourth-row-bncc-uiux-trainer {
         margin: 0;
-    }   
+        width: 100%;
+        max-width: 22rem;
+    }
 
 }
 
