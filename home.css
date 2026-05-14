@@ -2443,11 +2443,11 @@ p[id*="work-period"] {
     /* spacing control */
     .fourth-content-second-part-first-row-niagahoster,
     .fourth-content-second-part-second-row-fundex {
-        margin: 3rem 0;
+        margin: 0rem 0;
     }
 
     .fourth-content-second-part-third-row-noak {
-        margin-top: 3rem;
+        margin-top: 0rem;
         margin-left: 0;
     }
 
