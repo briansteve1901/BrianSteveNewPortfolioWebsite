@@ -463,6 +463,7 @@ li {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: #222329; /* MAIN BACKGROUND */
 }
 
 .fourth-content-first-part {
@@ -476,7 +477,7 @@ li {
 }
 
 #fourth-content-first-part-title {
-    color: #303135;
+    color: #FFFFFF; /* COMPANY / MAIN TITLE */
     font-size: 1.75rem;
     font-weight: bold;
 }
@@ -491,7 +492,7 @@ li {
 .fourth-content-second-part-fourth-row {
     display: flex;
     justify-content: center;
-    gap: 2.5rem; /* 40px */
+    gap: 2.5rem;
     flex-wrap: wrap;
     margin-bottom: 3rem;
 }
@@ -510,12 +511,13 @@ li {
 .fourth-content-second-part-third-row-noak,
 .fourth-content-second-part-third-row-bncc-uiux,
 .fourth-content-second-part-fourth-row-bncc-uiux-trainer {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
+    box-shadow: 0 1rem 2.5rem 0 rgba(0, 0, 0, 0.4);
     padding: 1.5rem;
     width: 22rem;
     height: 15rem;
     box-sizing: border-box;
     border-radius: 1rem;
+    background: #121212; /* CARD COLOR */
 }
 
 /* ========================= */
@@ -538,7 +540,7 @@ li {
 }
 
 /* ========================= */
-/* ALL TITLES */
+/* ALL TITLES (COMPANY NAME) */
 /* ========================= */
 
 #fourth-content-second-part-first-row-bncc-first-part-title,
@@ -553,7 +555,7 @@ li {
 #fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-title {
     font-size: 1.125rem;
     font-weight: bold;
-    color: #303135;
+    color: #FFFFFF; /* COMPANY TEXT */
     margin-left: 0.75rem;
     text-align: left;
 }
@@ -608,7 +610,7 @@ img[id*="division-image"] {
 /* ========================= */
 
 p[id*="work-position"] {
-    color: #71747D;
+    color: #AEB2BF; /* POSITION COLOR */
     font-size: 0.9375rem;
     text-align: left;
 }
