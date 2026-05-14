@@ -451,8 +451,12 @@ li {
     margin-left: 1.5rem; /* 24px */
 }
 
+/* ========================= */
+/* FOURTH CONTENT */
+/* ========================= */
+
 .fourth-content {
-    padding: 0 0 5.5rem 0; /* 0px 0px 88px 0px */
+    padding: 0 0 5.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -460,618 +464,49 @@ li {
 }
 
 .fourth-content-first-part {
-    margin-bottom: 3rem; /* 48px */
+    margin-bottom: 3rem;
 }
 
 #fourth-content-first-part-body {
     color: #007CFF;
-    font-weight: semibold;
-    font-size: 0.875rem; /* 14px */
-    margin-bottom: 1rem; /* 16px */
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
 }
 
 #fourth-content-first-part-title {
     color: #303135;
+    font-size: 1.75rem;
     font-weight: bold;
-    font-size: 1.75rem; /* 28px */
-}
-
-.fourth-content-second-part-first-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 3rem; /* 48px */
-}
-
-.fourth-content-second-part-first-row-bncc {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-first-row-bncc-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-bncc-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-first-row-bncc-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-first-row-bncc-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-bncc-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-bncc-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-first-row-bncc-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-bncc-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-bncc-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-first-row-niagahoster {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-    margin: 0 2.5rem; /* 0px 40px 0px 40px */
-}
-
-.fourth-content-second-part-first-row-niagahoster-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-niagahoster-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-first-row-niagahoster-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-first-row-niagahoster-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-niagahoster-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-niagahoster-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-    text-align: left;
-}
-
-.fourth-content-second-part-first-row-niagahoster-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-niagahoster-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-first-row-nuri {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-first-row-nuri-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-nuri-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-first-row-nuri-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-first-row-nuri-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-nuri-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-nuri-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-    text-align: left;
-}
-
-.fourth-content-second-part-first-row-nuri-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-first-row-nuri-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-first-row-nuri-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-second-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 3rem; /* 48px */
-}
-
-.fourth-content-second-part-second-row-qwords {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-second-row-qwords-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-qwords-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-second-row-qwords-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-second-row-qwords-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-qwords-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-qwords-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-    text-align: left;
-}
-
-.fourth-content-second-part-second-row-qwords-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-qwords-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-qwords-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-second-row-fundex {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-    margin: 0 2.5rem; /* 0px 40px */
-}
-
-.fourth-content-second-part-second-row-fundex-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-fundex-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-second-row-fundex-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-second-row-fundex-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-fundex-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-fundex-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-    text-align: left;
-}
-
-.fourth-content-second-part-second-row-fundex-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-fundex-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-fundex-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-second-row-telkom {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-second-row-telkom-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-telkom-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-second-row-telkom-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-second-row-telkom-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-telkom-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-telkom-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-    text-align: left;
-}
-
-.fourth-content-second-part-second-row-telkom-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-second-row-telkom-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-second-row-telkom-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.fourth-content-second-part-third-row-bca {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-third-row-bca-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bca-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-third-row-bca-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-third-row-bca-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bca-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-bca-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row-bca-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bca-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row-noak {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1); /* 0px 16px 40px 0px */
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-third-row-noak-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-noak-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-third-row-noak-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-third-row-noak-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-noak-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-noak-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row-noak-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-noak-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-}
-
-.fourth-content-second-part-third-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2.5rem; /* 40px */
-    flex-wrap: wrap;
 }
 
 /* ========================= */
-/* BNCC UI/UX BOOTCAMP CARD */
+/* ALL ROWS */
 /* ========================= */
 
-.fourth-content-second-part-third-row-bncc-uiux {
-    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
-    padding: 1.5rem; /* 24px */
-    width: 22rem; /* 352px */
-    height: 15rem; /* 240px */
-    box-sizing: border-box;
-    border-radius: 1rem; /* 16px */
-}
-
-.fourth-content-second-part-third-row-bncc-uiux-first-part {
-    margin-bottom: 2rem; /* 32px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-first-part-image {
-    box-sizing: border-box;
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-first-part-title {
-    font-size: 1.125rem; /* 18px */
-    font-weight: bold;
-    color: #303135;
-    margin-left: 0.75rem; /* 12px */
-}
-
-.fourth-content-second-part-third-row-bncc-uiux-second-part-first-division {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem; /* 24px */
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position {
-    color: #71747D;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-.fourth-content-second-part-third-row-bncc-uiux-second-part-second-division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-image {
-    margin-right: 0.5rem; /* 8px */
-}
-
-#fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period {
-    color: #007CFF;
-    font-weight: medium;
-    font-size: 0.9375rem; /* 15px */
-}
-
-/* ===================== */
-/* FOURTH ROW */
-/* ===================== */
-
+.fourth-content-second-part-first-row,
+.fourth-content-second-part-second-row,
+.fourth-content-second-part-third-row,
 .fourth-content-second-part-fourth-row {
     display: flex;
     justify-content: center;
-    margin-top: 3rem; /* 48px */
+    gap: 2.5rem; /* 40px */
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
+/* ========================= */
+/* ALL EXPERIENCE CARDS */
+/* ========================= */
+
+.fourth-content-second-part-first-row-bncc,
+.fourth-content-second-part-first-row-niagahoster,
+.fourth-content-second-part-first-row-nuri,
+.fourth-content-second-part-second-row-qwords,
+.fourth-content-second-part-second-row-fundex,
+.fourth-content-second-part-second-row-telkom,
+.fourth-content-second-part-third-row-bca,
+.fourth-content-second-part-third-row-noak,
+.fourth-content-second-part-third-row-bncc-uiux,
 .fourth-content-second-part-fourth-row-bncc-uiux-trainer {
     box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
     padding: 1.5rem;
@@ -1081,55 +516,120 @@ li {
     border-radius: 1rem;
 }
 
+/* ========================= */
+/* CARD TOP SECTION */
+/* ========================= */
+
+.fourth-content-second-part-first-row-bncc-first-part,
+.fourth-content-second-part-first-row-niagahoster-first-part,
+.fourth-content-second-part-first-row-nuri-first-part,
+.fourth-content-second-part-second-row-qwords-first-part,
+.fourth-content-second-part-second-row-fundex-first-part,
+.fourth-content-second-part-second-row-telkom-first-part,
+.fourth-content-second-part-third-row-bca-first-part,
+.fourth-content-second-part-third-row-noak-first-part,
+.fourth-content-second-part-third-row-bncc-uiux-first-part,
 .fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part {
     margin-bottom: 2rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-image {
-    box-sizing: border-box;
-}
+/* ========================= */
+/* ALL TITLES */
+/* ========================= */
 
+#fourth-content-second-part-first-row-bncc-first-part-title,
+#fourth-content-second-part-first-row-niagahoster-first-part-title,
+#fourth-content-second-part-first-row-nuri-first-part-title,
+#fourth-content-second-part-second-row-qwords-first-part-title,
+#fourth-content-second-part-second-row-fundex-first-part-title,
+#fourth-content-second-part-second-row-telkom-first-part-title,
+#fourth-content-second-part-third-row-bca-first-part-title,
+#fourth-content-second-part-third-row-noak-first-part-title,
+#fourth-content-second-part-third-row-bncc-uiux-first-part-title,
 #fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-title {
     font-size: 1.125rem;
     font-weight: bold;
     color: #303135;
     margin-left: 0.75rem;
+    text-align: left;
 }
 
+/* ========================= */
+/* FIRST DIVISION */
+/* ========================= */
+
+.fourth-content-second-part-first-row-bncc-second-part-first-division,
+.fourth-content-second-part-first-row-niagahoster-second-part-first-division,
+.fourth-content-second-part-first-row-nuri-second-part-first-division,
+.fourth-content-second-part-second-row-qwords-second-part-first-division,
+.fourth-content-second-part-second-row-fundex-second-part-first-division,
+.fourth-content-second-part-second-row-telkom-second-part-first-division,
+.fourth-content-second-part-third-row-bca-second-part-first-division,
+.fourth-content-second-part-third-row-noak-second-part-first-division,
+.fourth-content-second-part-third-row-bncc-uiux-second-part-first-division,
 .fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 1.5rem;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
 
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-image {
-    margin-right: 0.5rem;
-}
+/* ========================= */
+/* SECOND DIVISION */
+/* ========================= */
 
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position {
-    color: #71747D;
-    font-size: 0.9375rem;
-}
-
+.fourth-content-second-part-first-row-bncc-second-part-second-division,
+.fourth-content-second-part-first-row-niagahoster-second-part-second-division,
+.fourth-content-second-part-first-row-nuri-second-part-second-division,
+.fourth-content-second-part-second-row-qwords-second-part-second-division,
+.fourth-content-second-part-second-row-fundex-second-part-second-division,
+.fourth-content-second-part-second-row-telkom-second-part-second-division,
+.fourth-content-second-part-third-row-bca-second-part-second-division,
+.fourth-content-second-part-third-row-noak-second-part-second-division,
+.fourth-content-second-part-third-row-bncc-uiux-second-part-second-division,
 .fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division {
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-image {
+/* ========================= */
+/* ICONS */
+/* ========================= */
+
+img[id*="division-image"] {
     margin-right: 0.5rem;
 }
 
-#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
+/* ========================= */
+/* WORK POSITION */
+/* ========================= */
+
+p[id*="work-position"] {
+    color: #71747D;
+    font-size: 0.9375rem;
+    text-align: left;
+}
+
+/* ========================= */
+/* WORK PERIOD */
+/* ========================= */
+
+p[id*="work-period"] {
     color: #007CFF;
     font-size: 0.9375rem;
 }
 
+/* ========================= */
+/* NOAK IMAGE FIX */
+/* ========================= */
+
+#fourth-content-second-part-third-row-noak-first-part-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 .circle-container {
     width: 3.75rem; /* 60px */
     height: 3.75rem; /* 60px */
