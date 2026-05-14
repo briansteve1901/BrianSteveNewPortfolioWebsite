@@ -1266,7 +1266,7 @@ p[id*="work-period"] {
         margin-left: 1.5rem; /* 24px */
     }    
 
-      .fourth-content-second-part {
+     .fourth-content-second-part {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2.5rem;
