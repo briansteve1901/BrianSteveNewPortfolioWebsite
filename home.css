@@ -870,7 +870,6 @@ li {
     height: 15rem; /* 240px */
     box-sizing: border-box;
     border-radius: 1rem; /* 16px */
-    margin: 0 2.5rem 0 0; /* 0px 40px 0px 0px */
 }
 
 .fourth-content-second-part-third-row-bca-first-part {
@@ -989,6 +988,78 @@ li {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+}
+
+.fourth-content-second-part-third-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem; /* 40px */
+    flex-wrap: wrap;
+}
+
+/* ========================= */
+/* BNCC UI/UX BOOTCAMP CARD */
+/* ========================= */
+
+.fourth-content-second-part-third-row-bncc-uiux {
+    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
+    padding: 1.5rem; /* 24px */
+    width: 22rem; /* 352px */
+    height: 15rem; /* 240px */
+    box-sizing: border-box;
+    border-radius: 1rem; /* 16px */
+}
+
+.fourth-content-second-part-third-row-bncc-uiux-first-part {
+    margin-bottom: 2rem; /* 32px */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-first-part-image {
+    box-sizing: border-box;
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-first-part-title {
+    font-size: 1.125rem; /* 18px */
+    font-weight: bold;
+    color: #303135;
+    margin-left: 0.75rem; /* 12px */
+}
+
+.fourth-content-second-part-third-row-bncc-uiux-second-part-first-division {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem; /* 24px */
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-image {
+    margin-right: 0.5rem; /* 8px */
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position {
+    color: #71747D;
+    font-weight: medium;
+    font-size: 0.9375rem; /* 15px */
+}
+
+.fourth-content-second-part-third-row-bncc-uiux-second-part-second-division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-image {
+    margin-right: 0.5rem; /* 8px */
+}
+
+#fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period {
+    color: #007CFF;
+    font-weight: medium;
+    font-size: 0.9375rem; /* 15px */
 }
 
 .circle-container {
