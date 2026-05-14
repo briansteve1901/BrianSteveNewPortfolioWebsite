@@ -99,7 +99,7 @@ li {
     width: 2.25rem; /* 40px */
     height: 2.25rem; /* 40px */
     border-radius: 50%;
-    border: none;
+    border-color: none;
 }
 
 /* Hamburger Menu Styles */
