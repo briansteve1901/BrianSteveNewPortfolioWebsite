@@ -2082,8 +2082,20 @@ li {
         margin-right: 0.5rem; /* 8px */
     }
 
-    .fourth-content-second-part-third-row-noak {
-    margin-top: 0 !important;
+    .fourth-content-second-part-third-row {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+    #fourth-content-second-part-third-row-noak-first-part-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 }
 
 }
