@@ -2013,6 +2013,29 @@ p[id*="work-period"] {
     [id$="work-period"] {
         font-size: 0.875rem;
     }
+
+        #fourth-content-second-part-first-row-bncc-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-bncc-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-niagahoster-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-nuri-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-nuri-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-qwords-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-qwords-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-fundex-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-fundex-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-telkom-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }
     
     #fifth-content-first-part-body {
         font-size: 0.8125rem; /* 13px */
@@ -2513,6 +2536,29 @@ p[id*="work-period"] {
     #fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period,
 
     /* Fourth row trainer */
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }
+
+        #fourth-content-second-part-first-row-bncc-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-bncc-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-niagahoster-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-nuri-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-nuri-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-qwords-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-qwords-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-fundex-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-fundex-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-telkom-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period,
     #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position,
     #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
@@ -3045,6 +3091,28 @@ p[id*="work-period"] {
         font-size: 0.875rem; /* 14px */
     }
 
+        #fourth-content-second-part-first-row-bncc-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-bncc-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-niagahoster-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period,
+    #fourth-content-second-part-first-row-nuri-second-part-first-division-work-position,
+    #fourth-content-second-part-first-row-nuri-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-qwords-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-qwords-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-fundex-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-fundex-second-part-second-division-work-period,
+    #fourth-content-second-part-second-row-telkom-second-part-first-division-work-position,
+    #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
+        font-size: 0.875rem; /* 14px */
+    }
 
     .fifth-content-first-part {
         margin-bottom: 3.25rem; /* 52px */
