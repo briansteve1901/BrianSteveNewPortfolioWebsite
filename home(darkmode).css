@@ -2393,103 +2393,108 @@ p[id*="work-period"] {
         font-size: 0.875rem; /* 14px */
     }
     
+      /* ========================= */
+    /* HEADER TEXT */
+    /* ========================= */
+
     #fourth-content-first-part-body {
         font-size: 0.75rem; /* 12px */
     }
-    
+
     #fourth-content-first-part-title {
         font-size: 1.5rem; /* 24px */
     }
-    
+
+    /* ========================= */
+    /* ROW LAYOUT */
+    /* ========================= */
+
     .fourth-content-second-part-first-row,
     .fourth-content-second-part-second-row,
-    .fourth-content-second-part-third-row {
+    .fourth-content-second-part-third-row,
+    .fourth-content-second-part-fourth-row {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
+    /* spacing control */
     .fourth-content-second-part-first-row-niagahoster,
     .fourth-content-second-part-second-row-fundex {
-        margin: 2.5rem 0; /* 40px 0px 40px 0px */
+        margin: 0rem 0;
     }
 
     .fourth-content-second-part-third-row-noak {
-        margin-top: 3rem; /* 48px */
+        margin-top: 0rem;
         margin-left: 0;
     }
-    
-    #fourth-content-second-part-first-row-bncc-first-part-title {
+
+    .fourth-content-second-part-third-row-bca {
+        margin-right: 0;
+    }
+
+    /* ========================= */
+    /* TITLES (ALL CARDS) */
+    /* ========================= */
+
+    #fourth-content-second-part-first-row-bncc-first-part-title,
+    #fourth-content-second-part-first-row-niagahoster-first-part-title,
+    #fourth-content-second-part-first-row-nuri-first-part-title,
+    #fourth-content-second-part-second-row-qwords-first-part-title,
+    #fourth-content-second-part-second-row-fundex-first-part-title,
+    #fourth-content-second-part-second-row-telkom-first-part-title,
+    #fourth-content-second-part-third-row-bca-first-part-title,
+    #fourth-content-second-part-third-row-noak-first-part-title,
+    #fourth-content-second-part-third-row-bncc-uiux-first-part-title,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-title {
         font-size: 1.0625rem; /* 17px */
     }
-    
+
+    /* ========================= */
+    /* TEXT INSIDE CARDS */
+    /* ========================= */
+
+    /* BNCC */
     #fourth-content-second-part-first-row-bncc-second-part-first-division-work-position,
-    #fourth-content-second-part-first-row-bncc-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-first-row-niagahoster-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-first-row-bncc-second-part-second-division-work-period,
+
+    /* Niagahoster */
     #fourth-content-second-part-first-row-niagahoster-second-part-first-division-work-position,
-    #fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-first-row-nuri-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-first-row-niagahoster-second-part-second-division-work-period,
+
+    /* Nuri */
     #fourth-content-second-part-first-row-nuri-second-part-first-division-work-position,
-    #fourth-content-second-part-first-row-nuri-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-second-row-qwords-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-first-row-nuri-second-part-second-division-work-period,
+
+    /* Qwords */
     #fourth-content-second-part-second-row-qwords-second-part-first-division-work-position,
-    #fourth-content-second-part-second-row-qwords-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-second-row-fundex-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-second-row-qwords-second-part-second-division-work-period,
+
+    /* FundEx */
     #fourth-content-second-part-second-row-fundex-second-part-first-division-work-position,
-    #fourth-content-second-part-second-row-fundex-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-second-row-telkom-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-second-row-fundex-second-part-second-division-work-period,
+
+    /* Telkom */
     #fourth-content-second-part-second-row-telkom-second-part-first-division-work-position,
-    #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }
-    
-    #fourth-content-second-part-third-row-bca-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
+    #fourth-content-second-part-second-row-telkom-second-part-second-division-work-period,
+
+    /* BCA */
     #fourth-content-second-part-third-row-bca-second-part-first-division-work-position,
-    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period {
+    #fourth-content-second-part-third-row-bca-second-part-second-division-work-period,
+
+    /* Noak */
+    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period,
+
+    /* BNCC UIUX */
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-first-division-work-position,
+    #fourth-content-second-part-third-row-bncc-uiux-second-part-second-division-work-period,
+
+    /* Fourth row trainer */
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position,
+    #fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
         font-size: 0.875rem; /* 14px */
     }  
-    
-    #fourth-content-second-part-third-row-noak-first-part-title {
-        font-size: 1.0625rem; /* 17px */
-    }
-    
-    #fourth-content-second-part-third-row-noak-second-part-first-division-work-position,
-    #fourth-content-second-part-third-row-noak-second-part-second-division-work-period {
-        font-size: 0.875rem; /* 14px */
-    }   
 
     .fifth-content-first-part {
         margin-bottom: 3.25rem; /* 52px */
