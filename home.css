@@ -1970,7 +1970,7 @@ p[id*="work-period"] {
     .fourth-content-second-part-second-row > div,
     .fourth-content-second-part-third-row > div,
     .fourth-content-second-part-fourth-row > div {
-        margin: 1.5rem 0;
+        margin: 0;
     }
 
     /* special spacing fixes */
