@@ -1062,6 +1062,74 @@ li {
     font-size: 0.9375rem; /* 15px */
 }
 
+/* ===================== */
+/* FOURTH ROW */
+/* ===================== */
+
+.fourth-content-second-part-fourth-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem; /* 48px */
+}
+
+.fourth-content-second-part-fourth-row-bncc-uiux-trainer {
+    box-shadow: 0 1rem 2.5rem 0 rgba(53, 64, 90, 0.1);
+    padding: 1.5rem;
+    width: 22rem;
+    height: 15rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-image {
+    box-sizing: border-box;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-first-part-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #303135;
+    margin-left: 0.75rem;
+}
+
+.fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-image {
+    margin-right: 0.5rem;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-first-division-work-position {
+    color: #71747D;
+    font-size: 0.9375rem;
+}
+
+.fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-image {
+    margin-right: 0.5rem;
+}
+
+#fourth-content-second-part-fourth-row-bncc-uiux-trainer-second-part-second-division-work-period {
+    color: #007CFF;
+    font-size: 0.9375rem;
+}
+
 .circle-container {
     width: 3.75rem; /* 60px */
     height: 3.75rem; /* 60px */
