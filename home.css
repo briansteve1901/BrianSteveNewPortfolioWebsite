@@ -2007,6 +2007,10 @@ li {
         grid-column: span 1;
         margin: 0;
     }
+
+    .fourth-content-second-part-third-row-bca {
+        margin-bottom: 0;
+    }
     
     #fifth-content-first-part-body {
         font-size: 0.8125rem; /* 13px */
