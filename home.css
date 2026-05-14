@@ -2007,10 +2007,6 @@ li {
         grid-column: span 1;
         margin: 0;
     }
-
-    .fourth-content-second-part-third-row-noak {
-        margin-top: 0rem;
-    }
     
     #fifth-content-first-part-body {
         font-size: 0.8125rem; /* 13px */
@@ -2085,6 +2081,10 @@ li {
     #footer-first-part-behance {
         margin-right: 0.5rem; /* 8px */
     }
+
+    .fourth-content-second-part-third-row-noak {
+    margin-top: 0 !important;
+}
 
 }
 
